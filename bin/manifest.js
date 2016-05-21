@@ -6,10 +6,16 @@ const inquirer = require('inquirer');
 inquirer.prompt([
 	{
 		type: 'input',
-		name: 'testing',
-		message: 'this is testing message?',
-		default: 'defaut value'
+		name: 'ext_name',
+		message: 'Enter extension name:',
+		default: ''
+	},
+	{
+		type: 'input',
+		name: 'desc',
+		message: 'Enter extension description:',
+		default: ''
 	}
 ]).then(function(answers) {
 	console.log(answers.testing);
-})
+});
