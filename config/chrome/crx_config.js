@@ -15,7 +15,7 @@ const crx_config = {
 	author: '',
 	homepage_url: '',
 	icons: {
-		"128": ""
+		'128': ''
 	},
 	permissions: []
 };

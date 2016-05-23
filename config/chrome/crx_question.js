@@ -6,7 +6,8 @@ const custom_util = require('../../lib/util');
  * set of question to generate manifest.json file
  * @type {Array}
  */
-const questions = [{
+const questions = [
+	{
 		type: 'input',
 		name: 'ext_name',
 		message: 'Enter extension name:',

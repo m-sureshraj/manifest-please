@@ -1,12 +1,16 @@
 'use strict';
 
-const config = require('./crx_config');
-
-function process_crx_answer(answers) {
+/**
+ * process chrome extension related answers & return config object
+ * @param {Object} answers answers received from inquirer
+ * @param {Object} config choosed application default manifest file format
+ * @return {Object} config processed cofiguration
+ */
+function process_crx_answer(answers, config) {
 	// page_action & browser_action has identical default property
 	const default_prop = {
-		default_title: "",
-		default_popup: ""
+		default_title: '',
+		default_popup: ''
 	};
 
 	config.name = answers.ext_name;
@@ -40,7 +44,7 @@ function process_crx_answer(answers) {
 	// option page
 	if (answers.option_page) {
 		config.options_ui = {
-			page: "",
+			page: '',
 			chrome_style: true
 		};
 	}
