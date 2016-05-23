@@ -1,12 +1,12 @@
 'use strict';
 
-const custom_util = require('../lib/util');
+const custom_util = require('../../lib/util');
 
 /**
  * set of question to generate manifest.json file
  * @type {Array}
  */
-const question = [{
+const questions = [{
 		type: 'input',
 		name: 'ext_name',
 		message: 'Enter extension name:',
@@ -59,4 +59,4 @@ const question = [{
 	}
 ];
 
-module.exports = question;
+module.exports = questions;
