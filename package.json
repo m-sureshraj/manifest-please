@@ -7,11 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-  	"manifest": "./bin/manifest.js"
+    "manifest": "./bin/manifest.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
     "inquirer": "^1.0.2"
   }
 }

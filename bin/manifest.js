@@ -1,21 +1,8 @@
 #! /usr/bin/env node
 'use strict';
 
-const inquirer = require('inquirer');
+const crx_question = require('../lib/crx_question');
+const crx_config = require('../config/crx_config');
+const init = require('../lib/initialize');
 
-inquirer.prompt([
-	{
-		type: 'input',
-		name: 'ext_name',
-		message: 'Enter extension name:',
-		default: ''
-	},
-	{
-		type: 'input',
-		name: 'desc',
-		message: 'Enter extension description:',
-		default: ''
-	}
-]).then(function(answers) {
-	console.log(answers.testing);
-});
+init.prompt_user(crx_question, crx_config);

@@ -4,7 +4,7 @@
  * export chrome extension manifest file format
  * @type {Object}
  */
-const chromeExtConfig = {
+const crx_config = {
 	// required option's
 	manifest_version: 2,
 	name: '',
@@ -20,4 +20,4 @@ const chromeExtConfig = {
 	permissions: []
 };
 
-module.exports = chromeExtConfig;
+module.exports = crx_config;
