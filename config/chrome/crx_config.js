@@ -1,5 +1,7 @@
 'use strict';
 
+/*global module*/
+
 /**
  * export chrome extension manifest file format
  * @type {Object}

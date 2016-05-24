@@ -1,5 +1,7 @@
 'use strict';
 
+/*global require module*/
+
 const custom_util = require('../../lib/util');
 
 /**

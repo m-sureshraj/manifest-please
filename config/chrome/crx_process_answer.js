@@ -1,5 +1,7 @@
 'use strict';
 
+/*global module*/
+
 /**
  * process chrome extension related answers & return config object
  * @param {Object} answers answers received from inquirer
