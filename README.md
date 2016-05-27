@@ -1,5 +1,5 @@
 # manifest-please
-> Simple CLI tool to generate manifest file for your application's.
+> Simple CLI tool to generate manifest file for your **application's**.
 
 # How to install
 ```bash
@@ -12,3 +12,5 @@ manifest init
 ```
 
 Will work you through to creating manifest file for your application. Select the application type, you want to create manifest file for
+
+![manifest init](https://github.com/m-sureshraj/manifest-please/blob/master/media/init.gif "")
