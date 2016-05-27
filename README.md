@@ -1,5 +1,5 @@
 # manifest-please
-> Simple CLI tool to generate manifest file for your **[application's](#Supported-applications)**.
+> Simple CLI tool to generate manifest file for your **[application's](#supported-applications)**.
 
 # How to install
 ```bash
