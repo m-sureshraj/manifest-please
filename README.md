@@ -20,7 +20,7 @@ Will work you through to creating manifest file for your application. Select the
 
 Currently this tool only support to generate manifest file for chrome extension. I planning to add support for chrome app, progressive web app (PWA) and other application's which need manifest file.
 
-# Question's
+# Questions
 
 # Issues
 If you find any issues, while using this tool please report a issue.
