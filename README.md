@@ -16,3 +16,6 @@ Will work you through to creating manifest file for your application. Select the
 ![manifest init](https://github.com/m-sureshraj/manifest-please/blob/master/media/init.gif "")
 
 # Supported applications
++ Chrome extension
+
+Currently this tool only support to generate manifest file for chrome extension. I planning to add support for chrome app, progressive web app (PWA) and other application's which need manifest file.
