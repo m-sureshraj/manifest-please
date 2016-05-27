@@ -10,3 +10,5 @@ npm i -g manifest-please
 ```bash
 manifest init
 ```
+
+Will work you through to creating manifest file for your application. Select the application type, you want to create manifest file for
