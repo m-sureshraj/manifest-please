@@ -18,9 +18,11 @@ Will work you through to creating manifest file for your application. Select the
 # Supported applications
 + **Chrome extension**
 
-Currently this tool only support to generate manifest file for chrome extension. I planning to add support for chrome app, progressive web app (PWA) and other application's which need manifest file.
+Currently this tool only support to generate manifest file for chrome extension. I was working on add support for **chrome app, progressive web app (PWA)** and other application's which need manifest file.
 
 # Questions
+## There are already so many tools available to create manifest file, why another tool?
+Yes. There are tools available to create manifest file, But this tool like **All in one**. You can generate manifest file for different types of application's.  
 
 # Issues
 If you find any issues, while using this tool please report a issue.
