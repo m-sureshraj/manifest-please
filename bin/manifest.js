@@ -44,7 +44,8 @@ if (manifest.init) {
 
 		if (app_type === 'chrome_ext') {
 			const crx_questions = require('../config/chrome/crx_question');
-			init.prompt_user(crx_questions, app_type);
+			const file_format = 'manifest.json';
+			init.prompt_user(crx_questions, app_type, file_format);
 		}
 	});
 }
