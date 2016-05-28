@@ -1,6 +1,6 @@
 {
   "name": "manifest-please",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate manifest file for your application's",
   "homepage": "https://github.com/m-sureshraj/manifest-please",
   "keywords": ["manifest", "tool", "generate", "extension", "chrome_app", "cli"],
