@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generate manifest file for your application's",
   "homepage": "https://github.com/m-sureshraj/manifest-please",
-  "keywords": ["manifest", "tool", "generate" "extension", "chrome_app", "cli"],
+  "keywords": ["manifest", "tool", "generate", "extension", "chrome_app", "cli"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
